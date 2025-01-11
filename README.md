@@ -1,6 +1,6 @@
 # Crypto Stats Server
 
-A Node.js server that fetches and stores cryptocurrency price statistics using Supabase as the database. The server collects data for Bitcoin, Ethereum, and Polygon (MATIC) every 2 hours and provides REST API endpoints to access the statistics.
+A Node.js server that fetches and stores cryptocurrency price statistics using mongodb as the database. The server collects data for Bitcoin, Ethereum, and Polygon (MATIC) every 2 hours and provides REST API endpoints to access the statistics.
 
 ## Features
 
@@ -21,7 +21,7 @@ A Node.js server that fetches and stores cryptocurrency price statistics using S
 
 - Node.js (v14 or higher)
 - npm
-- Supabase account and project
+- Mongodb atlas
 
 ## Environment Variables
 
