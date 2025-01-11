@@ -13,7 +13,7 @@ A Node.js server that fetches and stores cryptocurrency price statistics using S
 
 - Node.js
 - Express.js
-- Supabase (Database)
+- mongoDB (Database)
 - node-cron (Scheduled tasks)
 - Axios (HTTP client)
 
@@ -28,9 +28,8 @@ A Node.js server that fetches and stores cryptocurrency price statistics using S
 Create a `.env` file in the root directory with the following variables:
 
 ```env
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-PORT=3000 (optional, defaults to 3000)
+PORT=3000
+MONGODB_URI= using atlas
 ```
 
 ## Installation
